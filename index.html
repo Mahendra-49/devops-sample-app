@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Sample Application</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f1f5f9;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 100%;
+            max-width: 450px;
+            padding: 40px 30px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2563eb;
+            font-size: 28px;
+            margin-bottom: 18px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            margin-top: 15px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 13px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h1>Welcome to DevOps Lab</h1>
+
+        <p>
+            This is a sample web application.
+        </p>
+
+        <p>
+            Developed and managed using
+            <b>HTML, CSS, JavaScript, Git and GitHub.</b>
+        </p>
+
+        <button onclick="showMessage()">
+            Click Here
+        </button>
+
+        <div class="footer">
+            DevOps Sample Application | Version 1.0
+        </div>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Application is running successfully!");
+        }
+    </script>
+
+</body>
+</html>
